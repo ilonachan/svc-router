@@ -27,14 +27,9 @@ Add the `-webhook-url` flag to your startup command, pointing to the HTTP addres
 ./mc-router -webhook-url "http://localhost:8080/event" ...
 ```
 
-### 3. Running svc-router
+### 2. Running svc-router
 **Default Ports:**
 * **UDP Listening:** `0.0.0.0:24454` (Simple Voice Chat Traffic)
-* **HTTP Listening:** `0.0.0.0:8080` (Webhooks)
-
-### 3. Running svc-router
-**Default Ports:**
-* **UDP Listening:** `0.0.0.0:24454` (Game Traffic)
 * **HTTP Listening:** `0.0.0.0:8080` (Webhooks)
 
 **Run via Docker (Example):**
